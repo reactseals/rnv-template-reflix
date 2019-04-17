@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Dimensions, Text, View, Platform, AsyncStorage, ImageBackground, ScrollView } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Toast from 'react-native-root-toast';
-import { IS_TV, IS_WEB, IS_MOBILE, IS_TIZEN } from 'vanilla-helpers';
+import { IS_TV, IS_WEB, IS_MOBILE, IS_TIZEN } from 'rnv-platform-info';
 import PickerAll from '../../components/Picker';
 import PickerTV from '../../components/Picker/index.tv';
 import ButtonWithBackground from '../../components/ButtonWithBackground';

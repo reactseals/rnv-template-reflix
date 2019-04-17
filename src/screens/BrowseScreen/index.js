@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, ScrollView } from 'react-native';
-import { IS_WEB, IS_TV } from 'vanilla-helpers';
+import { IS_WEB, IS_TV } from 'rnv-platform-info';
 import Api from '../../api';
 import HorizontalList from '../../components/HorizontalList';
 import colors from '../../res/colors';

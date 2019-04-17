@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { TextInput, AsyncStorage, KeyboardAvoidingView, Platform, Text, TouchableOpacity } from 'react-native';
-import { IS_ANDROID_TV } from 'vanilla-helpers';
+import { IS_ANDROID_TV } from 'rnv-platform-info';
 import firebase from '../../api/firebaseConfig';
 import * as firebaseService from '../../api/firebase';
 import ButtonWithBackground from '../../components/ButtonWithBackground';

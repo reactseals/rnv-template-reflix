@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, View, Image, TouchableOpacity } from 'react-native';
-import { IS_TV } from 'vanilla-helpers';
+import { IS_TV } from 'rnv-platform-info';
 import PropTypes from 'prop-types';
 import stylesAll from './styles';
 import stylesTV from './styles/index.tv';

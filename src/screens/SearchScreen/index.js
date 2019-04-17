@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, TextInput, TouchableOpacity, ScrollView } from 'react-native';
-import { IS_ANDROID_TV, IS_WEB, IS_TV } from 'vanilla-helpers';
+import { IS_ANDROID_TV, IS_WEB, IS_TV } from 'rnv-platform-info';
 import stylesAll from './styles';
 import stylesTV from './styles/index.tv';
 import Api from '../../api';

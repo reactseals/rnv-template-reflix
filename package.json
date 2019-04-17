@@ -2,9 +2,6 @@
   "name": "rnv-template-reflix",
   "title": "reflix",
   "version": "0.1.0",
-  "scripts": {
-    "link": "cd ./packages/vanillaHelpers && npm link && cd ../../ && npm link vanilla-helpers"
-  },
   "dependencies": {
     "@react-navigation/core": "^3.2.0",
     "@react-navigation/web": "^1.0.0-alpha.7",
@@ -20,14 +17,14 @@
     "react-native-root-toast": "^3.0.2",
     "react-native-screens": "github:kasinskas/react-native-screens",
     "react-native-swipeout": "^2.3.6",
+    "react-native-vector-icons": "^6.4.2",
     "react-native-video": "github:react-native-community/react-native-video",
     "react-native-video-controls": "^2.2.3",
     "react-native-youtube": "^1.1.0",
     "react-navigation": "^3.3.2",
-    "react-native-vector-icons": "^6.4.2"
+    "rnv-platform-info": "^1.0.0"
   },
   "devDependencies": {
-    "react-native-vanilla": "0.18.8",
-    "vanilla-helpers": "file:packages/vanillaHelpers"
+    "react-native-vanilla": "0.18.8"
   }
 }

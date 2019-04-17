@@ -1,6 +1,6 @@
 import React from 'react';
 import { Alert, Text, View, Image, TouchableOpacity } from 'react-native';
-import { IS_TV as istv } from 'vanilla-helpers';
+import { IS_TV as istv } from 'rnv-platform-info';
 import PropTypes from 'prop-types';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Api from '../../api';

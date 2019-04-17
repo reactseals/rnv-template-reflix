@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { AsyncStorage, Platform, ScrollView, Text, View } from 'react-native';
-import { IS_MOBILE } from 'vanilla-helpers';
+import { IS_MOBILE } from 'rnv-platform-info';
 import VerticalList from '../../components/VerticalList';
 import HorizontalLibraryItem from '../../components/HorizontalListLibraryItem';
 import colors from '../../res/colors';
