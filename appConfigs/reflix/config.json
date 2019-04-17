@@ -1,0 +1,87 @@
+{
+  "id": "reflix",
+  "common": {
+    "id": "reactnativevanilla.reflix",
+    "title": "Reflix",
+    "description": "Cross-platform application project based on React Native Vanilla",
+    "author": {
+      "name": "ReactSeals"
+    },
+    "license": "MIT",
+    "includedPlugins": [
+      "*"
+    ],
+    "includedFonts": [
+      "*"
+    ]
+  },
+  "platforms": {
+    "ios": {
+      "entryFile": "index.ios",
+      "scheme": "RNVApp",
+      "runScheme": "Debug",
+      "permissions": [
+        "APPLE_MUSIC",
+        "BLUETOOTH",
+        "CALENDAR",
+        "CAMERA"
+      ]
+    },
+    "tvos": {
+      "entryFile": "index.tvos",
+      "scheme": "RNVAppTVOS",
+      "runScheme": "Debug"
+    },
+    "android": {
+      "entryFile": "index.android",
+      "permissions": [
+        "INTERNET",
+        "SYSTEM_ALERT_WINDOW"
+      ]
+    },
+    "androidtv": {
+      "entryFile": "index.androidtv",
+      "permissions": [
+        "INTERNET",
+        "SYSTEM_ALERT_WINDOW"
+      ]
+    },
+    "androidwear": {
+      "entryFile": "index.androidwear",
+      "permissions": [
+        "WAKE_LOCK",
+        "INTERNET",
+        "SYSTEM_ALERT_WINDOW"
+      ]
+    },
+    "macos": {
+      "entryFile": "index.macos"
+    },
+    "tizen": {
+      "appName": "RNVanillaTV",
+      "package": "NcVRhWHJST",
+      "id": "NcVRhWHJST.RNVanillaTV",
+      "entryFile": "index.tizen",
+      "certificateProfile": "RNVanillaCert"
+    },
+    "tizenwatch": {
+      "appName": "RNVanillaWatch",
+      "package": "cHIP2fIRQZ",
+      "id": "cHIP2fIRQZ.RNVanillaWatch",
+      "entryFile": "index.tizenwatch",
+      "certificateProfile": "RNVanillaCert"
+    },
+    "web": {
+      "entryFile": "index.web"
+    },
+    "webos": {
+      "entryFile": "index.webos"
+    },
+    "windows": {
+      "entryFile": "index.windows"
+    },
+    "kaios": {
+      "entryFile": "index.kaios"
+    }
+  }
+}

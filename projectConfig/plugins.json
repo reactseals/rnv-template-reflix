@@ -1,0 +1,37 @@
+{
+  "plugins": {
+    "react-native-gesture-handler": {
+      "version": "github:kmagiera/react-native-gesture-handler",
+      "ios": {
+        "podName": "RNGestureHandler",
+        "podPath": "../../node_modules/react-native-gesture-handler"
+      },
+      "android": {
+        "modulePath": "../../node_modules/react-native-gesture-handler/android",
+        "package": "com.swmansion.gesturehandler.react.RNGestureHandlerPackage"
+      }
+    },
+    "react-native-video": {
+      "version": "github:react-native-community/react-native-video",
+      "ios": {
+        "podName": "react-native-video",
+        "podPath": "../../node_modules/react-native-video"
+      },
+      "android": {
+        "modulePath": "../../node_modules/react-native-video/android",
+        "package": "com.brentvatne.react.ReactVideoPackage"
+      }
+    },
+    "react-native-vector-icons": {
+      "version": "^6.4.2",
+      "ios": {
+        "podName": "RNVectorIcons",
+        "podPath": "../../node_modules/react-native-vector-icons"
+      },
+      "android": {
+        "modulePath": "../../node_modules/react-native-vector-icons/android",
+        "package": "com.oblador.vectoricons.VectorIconsPackage"
+      }
+    }
+  }
+}

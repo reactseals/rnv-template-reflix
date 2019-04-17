@@ -1,0 +1,33 @@
+{
+  "name": "rnv-template-reflix",
+  "title": "reflix",
+  "version": "0.1.0",
+  "scripts": {
+    "link": "cd ./packages/vanillaHelpers && npm link && cd ../../ && npm link vanilla-helpers"
+  },
+  "dependencies": {
+    "@react-navigation/core": "^3.2.0",
+    "@react-navigation/web": "^1.0.0-alpha.7",
+    "axios": "^0.18.0",
+    "firebase": "^5.8.6",
+    "prop-types": "^15.7.2",
+    "react-native-animatable": "^1.3.2",
+    "react-native-device-detection": "^0.2.0",
+    "react-native-gesture-handler": "github:kmagiera/react-native-gesture-handler",
+    "react-native-image-header-scroll-view": "^0.10.1",
+    "react-native-modal-selector": "^1.0.3",
+    "react-native-responsive-screen": "^1.2.1",
+    "react-native-root-toast": "^3.0.2",
+    "react-native-screens": "github:kasinskas/react-native-screens",
+    "react-native-swipeout": "^2.3.6",
+    "react-native-video": "github:react-native-community/react-native-video",
+    "react-native-video-controls": "^2.2.3",
+    "react-native-youtube": "^1.1.0",
+    "react-navigation": "^3.3.2",
+    "react-native-vector-icons": "^6.4.2"
+  },
+  "devDependencies": {
+    "react-native-vanilla": "0.18.8",
+    "vanilla-helpers": "file:packages/vanillaHelpers"
+  }
+}
